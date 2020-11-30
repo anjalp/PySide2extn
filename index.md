@@ -41,8 +41,9 @@ PySide2/PyQt5 natively does not support a round progress bar. PySide2extn/PyQt5e
 ### *Spiral Progress Bar*
 
 <p align="center">
-  <img src="/pages/assets/spb.png">
+  <img src="pages/assets/spb.png">
 </p>
+
 Spiral progress bar concept is similar to that of the round progress bar, except that it has many concentric round progress bars, with individual element customization. The spiral progress bar can be treated as any other PySide2/PyQt5 widget. Check below for more info on the widget.
 
 [See Examples](pages/examples/spbExamples){: .btn .fs-5 .mb-4 .mb-md-0 }  [Details](/pages/class/spbClass){: .btn .fs-5 .mb-4 .mb-md-0 }
