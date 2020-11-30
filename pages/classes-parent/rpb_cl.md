@@ -11,12 +11,13 @@ permalink: /pages/class/rpbClass
 RoundProgressBar widget provides a fully customizable round progress bar with 6 different style to choose from. *See below*
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb.png">
+  <img src="../assets/rpb/rpb.png">
 </p>
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_fig.PNG">
+  <img src="../assets/rpb/rpb_fig.PNG">
 </p>
+
 
 
 
@@ -59,8 +60,9 @@ RoundProgressBar widget provides a fully customizable round progress bar with 6 
 ## Detailed Description
 
 <p align="center">
-  <img src="/pages/assets/rpb/defa.PNG">
+  <img src="../assets/rpb/defa.PNG">
 </p>
+
 
 A progress bar is used to give the user an indication of the progress of an operation and to reassure them that the application is still running. A round Progress bar does the same function with the progress indicated moves in a circular pattern.
 
@@ -75,12 +77,13 @@ As the PySide2/PyQt5 library is so big and most of the common name is occupied b
 The Round Progress Bar Consist of **5 parts**: **Text**, **Line**, **Path**, **Circle** and **Pie**. Each of this can be modified individually in terms of color, size etc.
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_name.png">
+  <img src="../assets/rpb/rpb_name.png">
 </p>
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_pie.PNG">
+  <img src="../assets/rpb/rpb_pie.PNG">
 </p>
+
 
 ## Default Settings: Round Progress Bar
 
@@ -199,8 +202,9 @@ See [Example](/pages/examples/rpbExamples#2-minimum-maximum-and-range)
 **Parameter**: Position Flag: `North`, `South`, `East` `West` as string.
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_initPos.PNG">
+  <img src="../assets/rpb/rpb_initPos.PNG">
 </p>
+
 
 By default: Initial Position is `North`
 
@@ -212,8 +216,9 @@ self.rpb.rpb_setInitialPos('South')
 Output: 
 
 <p align="center">
-  <img src="/pages/assets/rpb/south.PNG">
+  <img src="../assets/rpb/south.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#5-starting-position)
 
 
@@ -233,8 +238,9 @@ self.rpb.rpb_setValue(96)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/96.PNG">
+  <img src="../assets/rpb/96.PNG">
 </p>
+
 
 ***
 
@@ -264,8 +270,9 @@ self.rpb.rpb_setLineWidth(10)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/linwwidth.PNG">
+  <img src="../assets/rpb/linwwidth.PNG">
 </p>
+
 
 ***
 
@@ -283,8 +290,9 @@ self.rpb.rpb_setLineColor((255, 0, 0)) #CHANGING THE LINE COLOR TO RED
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/linecolor.PNG">
+  <img src="../assets/rpb/linecolor.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#4-change-the-progress-bar-colors)
 
 
@@ -302,8 +310,9 @@ self.rpb.rpb_setPathWidth(15)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/pathwidth.PNG">
+  <img src="../assets/rpb/pathwidth.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#9-path-properties)
 
 
@@ -323,8 +332,9 @@ self.rpb.rpb_setPathColor((0, 0, 0)) #CHANGING THE PATH COLOR TO BLACK
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/pathcolor.PNG">
+  <img src="../assets/rpb/pathcolor.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#4-change-the-progress-bar-colors)
 
 
@@ -339,8 +349,9 @@ Sets the direction of the progress bar motion to clockwise or anticlockwise dire
 By default the direction is `Clockwise`
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_dir.PNG">
+  <img src="../assets/rpb/rpb_dir.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#6-direction-of-progress)
 
 
@@ -353,8 +364,9 @@ See [Example](/pages/examples/rpbExamples#6-direction-of-progress)
 As told earlier the round progress bar has total of 6 different types of as listed below:
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_typ.PNG">
+  <img src="../assets/rpb/rpb_typ.PNG">
 </p>
+
 
 Just type the style flag in the field to take palce.
 
@@ -367,8 +379,9 @@ self.rpb.rpb_setBarStyle('Pizza')
 Output:
 
 <p align="center">
-  <img src="/pages/assets/rpb/pizza.PNG">
+  <img src="../assets/rpb/pizza.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#3-changing-the-progress-bar-style)
 
 
@@ -381,8 +394,9 @@ See [Example](/pages/examples/rpbExamples#3-changing-the-progress-bar-style)
 This settings changes the stroke cap to either square or to a circle. See below:
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_cap.PNG">
+  <img src="../assets/rpb/rpb_cap.PNG">
 </p>
+
 
 By Default the line cap is set to `SquareCap`.
 
@@ -407,8 +421,9 @@ self.rpb.rpb_setLineStyle('DotLine')
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/dotline.PNG">
+  <img src="../assets/rpb/dotline.PNG">
 </p>
+
 
 ```python
 #LINE STYLE:
@@ -416,8 +431,9 @@ self.rpb.rpb_setLineStyle('DashLine')
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/dashline.PNG">
+  <img src="../assets/rpb/dashline.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#8-line-properties)
 
 
@@ -435,8 +451,9 @@ self.rpb.rpb_setTextColor((255, 220, 0)) #SETTING THE COLOR TO YELLOW
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/textcolor.PNG">
+  <img src="../assets/rpb/textcolor.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#4-change-the-progress-bar-colors)
 
 
@@ -454,8 +471,9 @@ self.rpb.rpb_setTextFont('Times')
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/font.PNG">
+  <img src="../assets/rpb/font.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#7-text-properties)
 
 
@@ -475,8 +493,9 @@ self.rpb.rpb_setValue(180)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_value.PNG">
+  <img src="../assets/rpb/rpb_value.PNG">
 </p>
+
 
 ```python
 self.rpb.rpb_setMaximum(360)
@@ -485,8 +504,9 @@ self.rpb.rpb_setValue(180)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_percent.PNG">
+  <img src="../assets/rpb/rpb_percent.PNG">
 </p>
+
 See the above example where we set the maximum value of the progress bar to 360, making the range from 0 to 360, then set the value to 180, we can see when the text format is in `Value` it displays 180 on the other hand when the text format is `Percentage` it shows as 50%.
 
 See [Example](/pages/examples/rpbExamples#7-text-properties)
@@ -505,8 +525,9 @@ self.rpb.rpb_setTextRatio(3) #SET THE TEXT SIZE TO 1/3 OF SIZE OF THE ROUND PROG
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_fifty.PNG">
+  <img src="../assets/rpb/rpb_fifty.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#7-text-properties)
 
 
@@ -524,8 +545,9 @@ self.rpb.rpb_setTextWidth(30)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_sfifty.PNG">
+  <img src="../assets/rpb/rpb_sfifty.PNG">
 </p>
+
 Remember that the using rpb_setTextRatio() enables the dynamic text, which makes the text size change with respect to the change in size of the round progress bar, but the method rpb_setTextWidth() disables the dynamic text feature and makes the constant text size, with no effect in the change in size of the round progress bar.
 
 See [Example](/pages/examples/rpbExamples#7-text-properties)
@@ -547,8 +569,9 @@ self.rpb.rpb_setCircleColor((200, 120, 20)) #CHANGE THE COLOR
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/circlecolor.PNG">
+  <img src="../assets/rpb/circlecolor.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#4-change-the-progress-bar-colors)
 
 
@@ -566,8 +589,9 @@ self.rpb.rpb_setCircleRatio(0.5) #MAKES THE CIRCLE 0.5*SIZE OF THE PROGRESS BAR
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_circle.PNG">
+  <img src="../assets/rpb/rpb_circle.PNG">
 </p>
+
 
 ***
 
@@ -587,8 +611,9 @@ self.rpb.rpb_setValue(45)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/pie.PNG">
+  <img src="../assets/rpb/pie.PNG">
 </p>
+
 See [Example](/pages/examples/rpbExamples#4-change-the-progress-bar-colors)
 
 
@@ -609,7 +634,7 @@ self.rpb.rpb_setPieRatio(0.9)
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/hybrid2.PNG">
+  <img src="../assets/rpb/hybrid2.PNG">
 </p>
 
 ***

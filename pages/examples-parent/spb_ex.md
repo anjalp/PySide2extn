@@ -68,8 +68,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_defEx.PNG">
+  <img src="../assets/spb/spb_defEx.PNG">
 </p>
+
 
 - Here first create a spiralProgressBar object and then add the progress bar to a layout and control the steps of the progress bar by the clicking of the button. 
 
@@ -86,8 +87,9 @@ if __name__ == "__main__":
 - Since the default progress bar has 3 individual concentric circle, where each can be controlled individually, we pass a tuple containing the individual value for manipulating each concentric progress bar, to the function `spb_setValue()` , which only accepts a tuple of length equal to the number of concentric progress bar. Every function which can manipulate the properties of the Spiral Progress Bar uses the same idea. The order of entering the value are shown below:
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_order.png">
+  <img src="../assets/spb/spb_order.png">
 </p>
+
 
 ***
 
@@ -133,8 +135,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_minmaxrange.png">
+  <img src="../assets/spb/spb_minmaxrange.png">
 </p>
+
 
 This example demonstrate the use of the three function to manipulate the Maximum and the Minimum value of the progress bar. The third function is just a simple substitute/short way of doing the things i.e. setting the Max and the Min value in one go. 
 
@@ -203,14 +206,16 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_initialPos.PNG">
+  <img src="../assets/spb/spb_initialPos.PNG">
 </p>
+
 
 * Initial position of the progress bar is the starting point of the progress bar. It is by default from `North` or top of the progress bar. All the concentric circles have the same default. Other possible starting positions are:
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_initpod.png">
+  <img src="../assets/spb/spb_initpod.png">
 </p>
+
 
 * The function `spb_setInitialPos()` takes a tuple as argument containing the string of position representing the `North`, `South`, `East` and `West`. The position described is detailed in the photo. And also as usual the order of position matters as described above.
 
@@ -258,8 +263,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_direction.png">
+  <img src="../assets/spb/spb_direction.png">
 </p>
+
 
 This function resets the default direction of rotation of progress, to user preference. It takes a tuple as the argument. Two values can be selected as element: `Clockwise` and `AntiClockwise` . As usual the order of the element in the tuple matters and the first element corresponds to the outer progress abe and vice versa.
 
@@ -310,8 +316,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_line.PNG">
+  <img src="../assets/spb/spb_line.PNG">
 </p>
+
 
 This example fully deals the customizability of the line element in the spiral progress bar. 
 
@@ -382,8 +389,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_variable.png">
+  <img src="../assets/spb/spb_variable.png">
 </p>
+
 
 The function `variableWidth()` helps one to create a variable width of the line/path. It accept a bool, a  `True` argument activates the variable width and thus increases the width of each line/path moving from outwards to inwards. By default the width increment is 1px. But to change the width increment manually one can us the function `spb_widthIncrement()`, it accept a `int` defining the width increment of the line. In the example picture one can appreciate the increasing width of the line/path moving from outer to inner.
 
@@ -426,8 +434,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_pathvisible.png">
+  <img src="../assets/spb/spb_pathvisible.png">
 </p>
+
 This function help to hide the path of the progress bar. It may be useful in certain designs, the function accepts a bool defining weather to hide the path or not.
 
 ***

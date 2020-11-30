@@ -199,12 +199,13 @@ Output:
 For changing the progress bar style a few things should be kept in mind: The progress bar is divided into Five parts: Line, Path, Circle, Pie, Text
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_name.PNG">
+  <img src="../assets/rpb/rpb_name.PNG">
 </p>
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_pie.PNG">
+  <img src="../assets/rpb/rpb_pie.PNG">
 </p>
+
 
 For each parts, we have the following variable which can be changed: Color, Width, Size, Cap, Stroke e.t.c from which the color settings are demonstrated below.
 
@@ -262,8 +263,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_strPos.PNG">
+  <img src="../assets/rpb/rpb_strPos.PNG">
 </p>
+
 
 * A progress bar can have 4 starting positions: `North`, `South`, `East`, and `West`. By default the position is `North`. Users can change the position by using the method: `rpb_setInitialPos()`, which takes a parameter if position string.
 
@@ -272,9 +274,10 @@ if __name__ == "__main__":
   ```
 
   <p align="center">
-    <img src="/pages/assets/rpb/rpb_initPos.PNG">
+    <img src="../assets/rpb/rpb_initPos.PNG">
   </p>
 
+  
   ***
 
 ### **6. Direction of Progress**
@@ -314,8 +317,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_direction.PNG">
+  <img src="../assets/rpb/rpb_direction.PNG">
 </p>
+
 
 * The direction of progress denotes the moving direction of the progress bar. By default, it is `Clockwise`, which can be changed by the method: `rpb_setDirection()` which accepts a string corresponding to the direction: `Clockwise` and `AntiClockwise`. It may raise an `Exception` if the string is not matched.
 
@@ -380,12 +384,13 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_textall1.PNG">
+  <img src="../assets/rpb/rpb_textall1.PNG">
 </p>
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_textall2.PNG">
+  <img src="../assets/rpb/rpb_textall2.PNG">
 </p>
+
 
 This Example contains all the info that is needed for customization of the text inside the progress bar. It contains the following elements:
 
@@ -478,8 +483,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_lineall.PNG">
+  <img src="../assets/rpb/rpb_lineall.PNG">
 </p>
+
 
 The line has many customizable properties each of them is listed below.
 
@@ -564,8 +570,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_pathAll.PNG">
+  <img src="../assets/rpb/rpb_pathAll.PNG">
 </p>
+
 
 The Path has 3 properties that can be changed and also the path is present in only two styles of the round progress bar: `Hybrid1` and the `Donet` styles. The following methods to modify the path is described below:
 
