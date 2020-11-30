@@ -74,6 +74,7 @@ After installing the PySide2extn/PyQt5extn the users can try out quick demo by:
 <p align="center">
   <img src="/pages/assets/demo/rpb.PNG">
 </p>
+
 ## Using with QtDesigner
 
 Many a time designing a GUI is better done using the inbuild QtDesigner as it greatly reduces the designing time. The PySide2extn widgets doesn't natively have the drag and drop widget feature but you can turn a QFrame to a roundProgressBar widget or to any other PySide2extn widgets. The steps to do is detailed below:
