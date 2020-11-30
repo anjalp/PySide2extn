@@ -30,6 +30,8 @@ As of the Initial Release the extension is equipped with two new Widgets: *Round
 
 ### *Round Progress Bar*
 
+![rpb](/pages/assets/rpb.PNG)
+
 <p align="center">
   <img src="PySide2extn/pages/assets/rpb.png">
 </p>
