@@ -9,7 +9,7 @@ permalink: /pages/faqs
 
 1. How to use the package in my projects?
 
-   Refer: [Getting Started](https://anjalp.github.io/PySide2extn/pages/faqs)
+   Refer: [Getting Started](https://anjalp.github.io/PySide2extn/pages/get_started)
 
 2. How to use ths package with QtDesigner?
 
