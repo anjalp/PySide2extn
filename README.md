@@ -14,7 +14,7 @@ An extension for the Python PySide2 Qt Framework which expands the scope of the 
   <img src="assets/spb.png">
 </p>
 
-:point_right: ​Go to [Home Page]() of Documentation for further Help
+:point_right: Go to [Home Page](https://anjalp.github.io/PySide2extn/) of Documentation for further Help
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ pip install <PySide2extn------.whl>file
 
 To verify that installation is complete, print out the `pip list` and search for the PySide2extn package. 
 
-:point_right: ​For more details go to the [Official PySide2extn Documentation Getting Started]()
+:point_right: For more details go to the [Official PySide2extn Documentation Getting Started](https://anjalp.github.io/PySide2extn/pages/get_started)
 
 ## Quick Demo
 
@@ -59,19 +59,19 @@ After installing the PySide2extn/PyQt5extn the users can try out quick demo by:
 
 ## Documentation
 
-Official Documentation for PySide2extn is detailed in: [PySide2extn Documentation]().
+Official Documentation for PySide2extn is detailed in: [PySide2extn Documentation](https://anjalp.github.io/PySide2extn/).
 
-:point_right: [Getting Started](​)
+:point_right: [Getting Started](https://anjalp.github.io/PySide2extn/pages/get_started)
 
-:point_right: ​[Examples]()
+:point_right: [Examples](https://anjalp.github.io/PySide2extn/pages/example)
 
-:point_right: [​Classes]()
+:point_right: [Classes](https://anjalp.github.io/PySide2extn/pages/classes)
 
-:point_right: [Errors and Exceptions](​)
+:point_right: [Errors and Exceptions](https://anjalp.github.io/PySide2extn/pages/error&exception)
 
-:point_right: [Version History]()
+:point_right: [Version History](https://anjalp.github.io/PySide2extn/pages/version)
 
-:point_right: [FAQ's]()
+:point_right: [FAQ's](https://anjalp.github.io/PySide2extn/pages/faqs)
 
 :point_right: [Official PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA)
 
@@ -146,7 +146,7 @@ self.rpb.rpb_setValue(x) #CHANGING THE VALUE OF THE PROGRESS BAR
 
 The `rpb_setValue(value)` takes an `int` as an argument and updates to change the value of the progress bar to the value given.
 
-:point_right: ​For More examples on Round Progress Bar go to: [Official PySide2extn Documentation Examples]()
+:point_right: For More examples on Round Progress Bar go to: [Official PySide2extn Documentation Examples](https://anjalp.github.io/PySide2extn/pages/examples/rpbExamples)
 
 * **Default Spiral Progress Bar**
 
@@ -227,11 +227,11 @@ if __name__ == "__main__":
   <img src="assets/spb/spb_order.png">
 </p>
 
-:point_right: ​For More examples on Spiral Progress Bar go to: [Official PySide2extn Documentation Examples]()
+:point_right: For More examples on Spiral Progress Bar go to: [Official PySide2extn Documentation Examples](https://anjalp.github.io/PySide2extn/pages/examples/spbExamples)
 
 ## Help
 
-- **PySide2extn/PyQt5extn is not working in my setup**: Go to Github [PySide2extn](http://localhost:4000/pages/help&support) repo. and raise an issue or just fill the official [PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA).
+- **PySide2extn/PyQt5extn is not working in my setup**: Go to Github [PySide2extn](https://github.com/anjalp/PySide2extn) repo. and raise an issue or just fill the official [PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA).
 - **Unknown errors**: Raise a GitHub issue or fill the official [PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA)
 
 ## Support
