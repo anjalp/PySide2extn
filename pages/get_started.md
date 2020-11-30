@@ -161,4 +161,4 @@ Dive deeper into the package check the links below.
 
 
 
-See: [Examples](/example)
+See: [Examples](example)
