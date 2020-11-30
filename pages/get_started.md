@@ -76,9 +76,6 @@ After installing the PySide2extn/PyQt5extn the users can try out quick demo by:
 <p align="center">
   <img src="pages/assets/demo/rpb.PNG">
 </p>
-
-
-
 ## Using with QtDesigner
 
 Many a time designing a GUI is better done using the inbuild QtDesigner as it greatly reduces the designing time. The PySide2extn widgets doesn't natively have the drag and drop widget feature but you can turn a QFrame to a roundProgressBar widget or to any other PySide2extn widgets. The steps to do is detailed below:
@@ -86,16 +83,18 @@ Many a time designing a GUI is better done using the inbuild QtDesigner as it gr
 * Place a QFrame in the exact place where you want the PySide2extn widget to be.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes1.PNG">
+  <img src="pages/assets/getstart/qtdes1.png">
 </p>
+
 
 
 
 * Go to the `Object Inspector` and right click on the QFrame you just created, then click on the `Promote to` menu, you will see a Promote Widget window popup.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes2.PNG">
+  <img src="pages/assets/getstart/qtdes2.png">
 </p>
+
 
 
 
@@ -105,24 +104,27 @@ Many a time designing a GUI is better done using the inbuild QtDesigner as it gr
   * *Header File*: It is always the `PySide2extn.RoundProgressBar.h` or `PySide2extn.SpiralProgressBar.h`
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes3.PNG">
+  <img src="pages/assets/getstart/qtdes3.png">
 </p>
+
 
 
 
 * After adding you can see a new Promoted Classes gets one new widget. Then close the Popup.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes4.PNG">
+  <img src="pages/assets/getstart/qtdes4.png">
 </p>
+
 
 
 
 * After this again right click on the QFrame that we have created and click on `Morph into` and select the `QWidget` option. Now the QFrame has changes to QWidget. Now once more right click on to the newly formed QWidget and select: `Promote To` and select the `roundProgressBar`option from there.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes5.PNG">
+  <img src="pages/assets/getstart/qtdes5.png">
 </p>
+
 
 
 
@@ -158,7 +160,7 @@ Many a time designing a GUI is better done using the inbuild QtDesigner as it gr
    Run this file and we can see the roundProgressBar in the QFrame we made.
 
   <p align="center">
-    <img src="pages/assets/getstart/qtdes6.PNG">
+    <img src="pages/assets/getstart/qtdes6.png">
   </p>
 
 ## Exploring Further
