@@ -63,5 +63,5 @@ Same meaning as the error raised above but vice-versa.
 
 
 
-See: [Versions](/pages/version)
+See: [Versions](pages/version)
 

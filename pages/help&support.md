@@ -9,7 +9,7 @@ permalink: /pages/help&support
 
 ## Help
 
-* **PySide2extn/PyQt5extn is not working in my setup**: Goto Github [PySide2extn]() or [PyQt5extn]() repo. and raise an issue or just fill the official [PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA).
+* **PySide2extn/PyQt5extn is not working in my setup**: Goto Github [PySide2extn](https://github.com/anjalp/PySide2extn) or [PyQt5extn](https://github.com/anjalp/PyQt5extn) repo. and raise an issue or just fill the official [PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA).
 * **Unknown errors**: Raise a GitHub issue or fill the official [PySide2extn/PyQt5extn Form](https://forms.gle/yfKVK85sLLMJMCfJA)
 
 ## Support

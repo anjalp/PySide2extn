@@ -199,12 +199,13 @@ Output:
 For changing the progress bar style a few things should be kept in mind: The progress bar is divided into Five parts: Line, Path, Circle, Pie, Text
 
 <p align="center">
-  <img src="../assets/rpb/rpb_name.PNG">
+  <img src="../assets/rpb/rpb_name.png">
 </p>
 
 <p align="center">
-  <img src="../assets/rpb/rpb_pie.PNG">
+  <img src="../assets/rpb/rpb_pie.png">
 </p>
+
 
 
 For each parts, we have the following variable which can be changed: Color, Width, Size, Cap, Stroke e.t.c from which the color settings are demonstrated below.
@@ -274,10 +275,9 @@ if __name__ == "__main__":
   ```
 
   <p align="center">
-    <img src="../assets/rpb/rpb_initPos.PNG">
+    <img src="../assets/rpb/rpb_initPos.png">
   </p>
 
-  
   ***
 
 ### **6. Direction of Progress**
@@ -483,7 +483,7 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="../assets/rpb/rpb_lineall.PNG">
+  <img src="../assets/rpb/rpb_lineAll.PNG">
 </p>
 
 
@@ -592,5 +592,5 @@ self.rpb2.rpb_setPathColor((0, 0, 0))   #BLACK COLOR
 
 ***
 
-Also See: [Class RoundProgressBar](/pages/class/rpbClass)
+Also See: [Class RoundProgressBar](pages/class/rpbClass)
 

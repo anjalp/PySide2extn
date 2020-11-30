@@ -135,8 +135,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="../assets/spb/spb_minmaxrange.png">
+  <img src="../assets/spb/spb_minmaxrange.PNG">
 </p>
+
 
 
 This example demonstrate the use of the three function to manipulate the Maximum and the Minimum value of the progress bar. The third function is just a simple substitute/short way of doing the things i.e. setting the Max and the Min value in one go. 
@@ -263,8 +264,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="../assets/spb/spb_direction.png">
+  <img src="../assets/spb/spb_direction.PNG">
 </p>
+
 
 
 This function resets the default direction of rotation of progress, to user preference. It takes a tuple as the argument. Two values can be selected as element: `Clockwise` and `AntiClockwise` . As usual the order of the element in the tuple matters and the first element corresponds to the outer progress abe and vice versa.
@@ -389,8 +391,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="../assets/spb/spb_variable.png">
+  <img src="../assets/spb/spb_variable.PNG">
 </p>
+
 
 
 The function `variableWidth()` helps one to create a variable width of the line/path. It accept a bool, a  `True` argument activates the variable width and thus increases the width of each line/path moving from outwards to inwards. By default the width increment is 1px. But to change the width increment manually one can us the function `spb_widthIncrement()`, it accept a `int` defining the width increment of the line. In the example picture one can appreciate the increasing width of the line/path moving from outer to inner.
@@ -434,11 +437,11 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="../assets/spb/spb_pathvisible.png">
+  <img src="../assets/spb/spb_pathvisible.PNG">
 </p>
 
 This function help to hide the path of the progress bar. It may be useful in certain designs, the function accepts a bool defining weather to hide the path or not.
 
 ***
 
-Also See: [Class SpiralProgressBar](/pages/class/spbClass)
+Also See: [Class SpiralProgressBar](pages/class/spbClass)

@@ -20,4 +20,4 @@ permalink: /pages/version
   * Variable Width and Width Increment.
 
 
-See: [FAQ's](/pages/faqs)
+See: [FAQ's](pages/faqs)

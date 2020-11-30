@@ -11,12 +11,13 @@ permalink: /pages/class/spbClass
 SpiralProgressBar Class provides a fully customizable (Max. 6) Concentric Round ProgressBar. *See below*.
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_demo.png">
+  <img src="../assets/spb/spb_demo.png">
 </p>
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_schem.PNG">
+  <img src="../assets/spb/spb_schem.png">
 </p>
+
 
 # Synopsis
 
@@ -46,8 +47,9 @@ SpiralProgressBar Class provides a fully customizable (Max. 6) Concentric Round 
 ## Detailed Description
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_default.PNG">
+  <img src="../assets/spb/spb_default.PNG">
 </p>
+
 
 A progress bar is used to give the user an indication of the progress of an operation and to reassure them that the application is still running. A Spiral Progress bar does the same function with the progress indicated moves in a circular pattern.
 
@@ -64,14 +66,16 @@ As the PySide2/PyQt5 library is so big and most of the common name is occupied b
 The Spiral Progress Bar has **3 Parts: Line, Path, Number of Progress Bar**, *see below*
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_type.PNG">
+  <img src="../assets/spb/spb_type.png">
 </p>
+
 
 Spiral progress bar contains many elements, which can be customized according to the users need, since the spiral progress bar contains multiple concentric circles, for one to control each circle independently, an efficient method to do such a thing is by passing a tuple where the elements of the tuple correspond to the customizable part of the spiral progress bar. The order of arrangement of the element in the tuple is on par with the order of concentric circle i.e. first element in the tuple always corresponds to the outer concentric circle and the last element in the tuple points to the innermost concentric circle. 
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_norm.PNG">
+  <img src="../assets/spb/spb_norm.png">
 </p>
+
 
 Examples of some of the function is displayed below:
 
@@ -123,7 +127,7 @@ Set the minimum size of the progress bar by passing width and height as argument
 
 By default, the number of progress bar in the spiral progress bar is 3 but this can be increased by using this function. In this version, the maximum number of the progress bar in a single spiral progress bar is 6.
 
-See: [Example](/pages/examples/spbExamples#3-initial-position)
+See: [Example](pages/examples/spbExamples#3-initial-position)
 
 ***
 
@@ -133,7 +137,7 @@ See: [Example](/pages/examples/spbExamples#3-initial-position)
 
 As each value of the progress bar needed to be controlled individually for maximum customizability, a simple approach is to pass the value of the whole spiral progress bar as a tuple, where the elements order matters, i.e. the first element in the tuple controls the outermost circle of the progress bar and the last element in the progress bar controls the innermost circle of the progress bar.(Refer to the above Naming Convention Section for more clarity).
 
-See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
+See: [Example](pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 ***
 
@@ -144,7 +148,7 @@ See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
 A function to set the maximum value of the progress bar. By default, it is set to 100. The user can individually customize the maximum for each circle in the progress bar. The function takes a tuple as an argument with elements corresponds to the maximum of each circle of the progress bar. Example:
 `spb_setMaximum((100, 200, 300))` this makes the maximum value of the outermost progress bar to 100, middle progress  bar to 200 and innermost progress bar to 300.
 
-See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
+See: [Example](pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 ***
 
@@ -154,7 +158,7 @@ See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 A function to set the minimum value of the progress bar. By default, the minimum value is 0 for all three circles. As same as setting the maximum given above the minimum also takes a tuple of minimum values of each concentric progress bar.
 
-See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
+See: [Example](pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 ***
 
@@ -164,7 +168,7 @@ See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 This function makes life easy instead of using the maximum and minimum function(described above) this function achieves the same result in one go. The minimum and maximum are passed independently by different tuples. The format is similar to what is described.
 
-See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
+See: [Example](pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 ***
 
@@ -174,7 +178,7 @@ See: [Example](/pages/examples/spbExamples#2-maximum-minimum-and-range)
 
 Normally the gap between the lines is set to default 2*line width, but users can override this by using this function. This function accepts `int` corresponding to the pixels gap between two lines.
 
-See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
+See: [Example](pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 ***
 
@@ -185,11 +189,12 @@ See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
 There are 4 starting positions users can use they are: `North`, `South`, `East`, and `West`. Each concentric circles can be individually positioned by passing the position as a tuple. Example:
 `spb_setInitialPos(('North', 'South', East))`:  See image Below
 
-See [Example](/pages/examples/spbExamples#3-initial-position)
+See [Example](pages/examples/spbExamples#3-initial-position)
 
 <p align="center">
-  <img src="/pages/assets/spb/spb_initpod.PNG">
+  <img src="../assets/spb/spb_initpod.PNG">
 </p>
+
 
 ***
 
@@ -207,7 +212,7 @@ The geometry function can be effectively used in cases when the user wants to cu
 
 Two ways the progress bar can move: `Clockwise` and `AntiClockwise`. Each of the circular progress bars directions can be independently set, by passing the direction as an element of the tuple.The Order of element corresponds to the outer to the inner combination.
 
-See: [Example](/pages/examples/spbExamples#4-direction)
+See: [Example](pages/examples/spbExamples#4-direction)
 
 ***
 
@@ -225,7 +230,7 @@ This function resets the spiral progress bar to a minimum value i.e. to 0%.
 
 The width of each line can be specified by the `spb_lineWidth()` function but this sets the width to all the line elements. This can be made to change by this function, where if `True` then the width increases going from outer to the inner circles. The increment is set to 1px increment as default. But this can be changed using the function `spb_widthIncrement` see below. 
 
-See: [Example](/pages/examples/spbExamples#6-variable-width-and-width-increment)
+See: [Example](pages/examples/spbExamples#6-variable-width-and-width-increment)
 
 ***
 
@@ -235,7 +240,7 @@ See: [Example](/pages/examples/spbExamples#6-variable-width-and-width-increment)
 
 The width increment is used in par with the `variableWidth()`, the default width increment of 1px is changed with `int` passed to the function. See the SpiralPorgressBar Example for more details.
 
-See: [Example](/pages/examples/spbExamples#6-variable-width-and-width-increment)
+See: [Example](pages/examples/spbExamples#6-variable-width-and-width-increment)
 
 ***
 
@@ -245,7 +250,7 @@ See: [Example](/pages/examples/spbExamples#6-variable-width-and-width-increment)
 
 Line width is 5px default, which can be changed to any size by using this function. It accepts an `int` in px. Remember the width specified applies to all the concentric circles in the spiral progress bar and also the path of the spiral progress bar. Also, the gap between the lines is defined as 2*line Width by default.
 
-See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
+See: [Example](pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 ***
 
@@ -255,7 +260,7 @@ See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 The line color function resets the default line color of the progress bar to user-specified. It accepts a tuple with elements corresponding to the color of the line of each circles in the spiral progress bar. Each element should be in the format `(R, G, B)`. Remember this function changes the color of the line only, path color should be set differently.
 
-See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
+See: [Example](pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 ***
 
@@ -266,7 +271,7 @@ See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
 A total of 3 different line style is defined in the class, which are: `SolidLine`, `DotLine`, and `DashLine`. Each circle in the spiral progress bar can have anindependent style. the tuple passed contains the string of the style name with the specific order. Example:
 `spb_lineStyle(('SolidLine', 'DotLine', 'DashLine'))`
 
-See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
+See: [Example](pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 ***
 
@@ -277,7 +282,7 @@ See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
 Two different caps are available in this class: `RoundCap` and the `SquareCap`. the default is `RoundCap`. Users need to pass a tuple containing the cap name as a string to this function. Example:
 `spb_lineCap(('RoundCap', 'SquareCap', 'RoundCap'))`
 
-See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
+See: [Example](pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 ***
 
@@ -287,7 +292,7 @@ See: [Example](/pages/examples/spbExamples#5-line-color-style-cap-path-color)
 
 The path as default is visible, but users can override this and make the path hidden.
 
-See: [Example](/pages/examples/spbExamples#7-hidden-path)
+See: [Example](pages/examples/spbExamples#7-hidden-path)
 
 ***
 
@@ -299,4 +304,4 @@ Path color is set independently from the line color. Path color is similar to li
 
 ***
 
-Also See: [SpiralProgressBar Examples](/pages/examples/spbExamples)
+Also See: [SpiralProgressBar Examples](pages/examples/spbExamples)
