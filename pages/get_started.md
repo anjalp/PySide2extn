@@ -74,7 +74,7 @@ After installing the PySide2extn/PyQt5extn the users can try out quick demo by:
 
 
 <p align="center">
-  <img src="assets/demo/rpb.png">
+  <img src="assets/demo/rpb.PNG">
 </p>
 
 
