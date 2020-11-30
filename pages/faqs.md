@@ -9,19 +9,19 @@ permalink: /pages/faqs
 
 1. How to use the package in my projects?
 
-   Refer: [Getting Started](pages/get_started)
+   Refer: [Getting Started](https://anjalp.github.io/PySide2extn/pages/faqs)
 
 2. How to use ths package with QtDesigner?
 
-   Refer: [Getting Started/QtDesigner](pages/get_started#using-with-qtdesigner)
+   Refer: [Getting Started/QtDesigner](https://anjalp.github.io/PySide2extn/pages/get_started#using-with-qtdesigner)
 
 3. How to customize the Round Progress bar?
 
-   Refer: [Examples: Round Progress Bar](pages/examples/rpbExamples)
+   Refer: [Examples: Round Progress Bar](https://anjalp.github.io/PySide2extn/pages/examples/rpbExamples)
 
 4. Package not working properly in my machine?
 
-   Refer to: [Help](pages/help&support#help)
+   Refer to: [Help](https://anjalp.github.io/PySide2extn/pages/help&support#help)
 
 5. How can I get personal help for the package?
 
@@ -33,15 +33,15 @@ permalink: /pages/faqs
 
 7. I have an idea for a custom widget?
 
-   Any one with a solid idea for a Widget or any suggestion are welcomed, please go to [Support](pages/help&support#support) page and submit a form requesting your need for the same.
+   Any one with a solid idea for a Widget or any suggestion are welcomed, please go to [Support](https://anjalp.github.io/PySide2extn/pages/help&support#support) page and submit a form requesting your need for the same.
 
 8. Can I modify the source code for additional flexibility?
 
-   Yes, you can, but also notify the creator of this package about the same(under [Support Page](pages/help&support#support)) as the idea my be under development.
+   Yes, you can, but also notify the creator of this package about the same(under [Support Page](https://anjalp.github.io/PySide2extn/pages/help&support#support)) as the idea my be under development.
 
 9. Which OS version is supported?
 
-   The package was manually tested in different OS (Windows(7, 8, 10 2006, 10 20H2), Linux(Ubuntu 20.04)) with different Python version(3.6-3.9) and also different PySide2/PyQt5 package(5.11.0-5.15.0) all the result are given in: [Getting Started/Requirements](pages/get_started#requirements).
+   The package was manually tested in different OS (Windows(7, 8, 10 2006, 10 20H2), Linux(Ubuntu 20.04)) with different Python version(3.6-3.9) and also different PySide2/PyQt5 package(5.11.0-5.15.0) all the result are given in: [Getting Started/Requirements](https://anjalp.github.io/PySide2extn/pages/get_started#requirements).
 
 10. Does this python package works only with PySide2?
 
@@ -49,4 +49,4 @@ permalink: /pages/faqs
 
     
 
-See: [Help and Support](pages/help&support)
+See: [Help and Support](help&support)

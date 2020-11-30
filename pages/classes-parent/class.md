@@ -12,4 +12,4 @@ All the class available in this package is detailed below. Each child pages for 
 
 
 
-See: [Execptions & Errors](pages/error&exception)
+See: [Execptions & Errors](error&exception)

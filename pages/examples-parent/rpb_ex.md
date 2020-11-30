@@ -592,5 +592,5 @@ self.rpb2.rpb_setPathColor((0, 0, 0))   #BLACK COLOR
 
 ***
 
-Also See: [Class RoundProgressBar](pages/class/rpbClass)
+Also See: [Class RoundProgressBar](https://anjalp.github.io/PySide2extn/pages/class/rpbClass)
 

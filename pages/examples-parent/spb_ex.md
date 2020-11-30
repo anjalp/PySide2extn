@@ -444,4 +444,4 @@ This function help to hide the path of the progress bar. It may be useful in cer
 
 ***
 
-Also See: [Class SpiralProgressBar](pages/class/spbClass)
+Also See: [Class SpiralProgressBar](https://anjalp.github.io/PySide2extn/pages/class/spbClass)
