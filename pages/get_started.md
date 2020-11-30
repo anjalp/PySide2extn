@@ -71,10 +71,8 @@ After installing the PySide2extn/PyQt5extn the users can try out quick demo by:
 >> demo.main()   #PRESS ENTER AND YOU WILL GET A DEMO APPLICATION
 ```
 
-![demo](pages/assets/demo/rpb.PNG)
-
 <p align="center">
-  <img src="pages/assets/demo/rpb.PNG">
+  <img src="/pages/assets/demo/rpb.PNG">
 </p>
 ## Using with QtDesigner
 
