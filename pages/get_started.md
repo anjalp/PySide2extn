@@ -86,15 +86,17 @@ Many a time designing a GUI is better done using the inbuild QtDesigner as it gr
 * Place a QFrame in the exact place where you want the PySide2extn widget to be.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes1.png">
+  <img src="pages/assets/getstart/qtdes1.PNG">
 </p>
+
 
 
 * Go to the `Object Inspector` and right click on the QFrame you just created, then click on the `Promote to` menu, you will see a Promote Widget window popup.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes2.png">
+  <img src="pages/assets/getstart/qtdes2.PNG">
 </p>
+
 
 
 * Create a new Class: for which enter the details(see image) in the `Base Class Name`, `Promoted class name` and `Header file` slots and press `Add`. Here we used the roundProgressBar Class, but you can use any other class in the PySide2extn package.
@@ -103,22 +105,25 @@ Many a time designing a GUI is better done using the inbuild QtDesigner as it gr
   * *Header File*: It is always the `PySide2extn.RoundProgressBar.h` or `PySide2extn.SpiralProgressBar.h`
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes3.png">
+  <img src="pages/assets/getstart/qtdes3.PNG">
 </p>
+
 
 
 * After adding you can see a new Promoted Classes gets one new widget. Then close the Popup.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes4.png">
+  <img src="pages/assets/getstart/qtdes4.PNG">
 </p>
+
 
 
 * After this again right click on the QFrame that we have created and click on `Morph into` and select the `QWidget` option. Now the QFrame has changes to QWidget. Now once more right click on to the newly formed QWidget and select: `Promote To` and select the `roundProgressBar`option from there.
 
 <p align="center">
-  <img src="pages/assets/getstart/qtdes5.png">
+  <img src="pages/assets/getstart/qtdes5.PNG">
 </p>
+
 
 
 * That's it, you have placed a PySide2extn Widget into your Application. At present in the QtDesigner you will not see any image of the roundprogressbar but you can use the roundProgressBar inside the python code you write. Convert the `.ui`file to python file using the `pyside2-uic`and create a new file and write the following code to display the new made window.
@@ -153,7 +158,7 @@ Many a time designing a GUI is better done using the inbuild QtDesigner as it gr
    Run this file and we can see the roundProgressBar in the QFrame we made.
 
   <p align="center">
-    <img src="pages/assets/getstart/qtdes6.png">
+    <img src="pages/assets/getstart/qtdes6.PNG">
   </p>
 
 ## Exploring Further
