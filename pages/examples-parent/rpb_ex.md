@@ -67,6 +67,7 @@ Output:
   <img src="../assets/rpb/rpb_demo.PNG">
 </p>
 
+
 In this demo, we first created an object of the Round Progress Bar:
 
 ```python
@@ -124,8 +125,9 @@ if __name__ == "__main__":
 ```
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_maxRange.PNG">
+  <img src="../assets/rpb/rpb_maxRange.PNG">
 </p>
+
 
 The Maximum and Minimum values of the progress bar can be set using the method: `rpb_setMaximum()`, and `rpb_setMinimum()`. By default, the maximum value is set to 100, and the minimum to 0. This can be changed as users use cases. The same result can be achieved by the user using the function: `rpb_setRange()`. The range function takes two parameters: `minimum` and `maximum` in order.
 
@@ -136,8 +138,9 @@ The Maximum and Minimum values of the progress bar can be set using the method: 
 The Round Progress Bar Class has 6 types of different types of Round Progress bar, the default is the `Donet` type of progress bar which you see in the above example, the other types are illustrated in the image below:
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_typ.png">
+  <img src="../assets/rpb/rpb_typ.png">
 </p>
+
 
 To change the Progress Bar style, use the function:
 
@@ -186,7 +189,7 @@ if __name__ == "__main__":
 Output:
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_demo2.PNG">
+  <img src="../assets/rpb/rpb_demo2.PNG">
 </p>
 
 ***
