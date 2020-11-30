@@ -64,7 +64,7 @@ if __name__ == "__main__":
 Output:
 
 <p align="center">
-  <img src="/pages/assets/rpb/rpb_demo.PNG">
+  <img src="../assets/rpb/rpb_demo.PNG">
 </p>
 
 In this demo, we first created an object of the Round Progress Bar:
