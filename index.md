@@ -30,11 +30,10 @@ As of the Initial Release the extension is equipped with two new Widgets: *Round
 
 ### *Round Progress Bar*
 
-![rpb](/pages/assets/rpb.PNG)
-
 <p align="center">
-  <img src="PySide2extn/pages/assets/rpb.png">
+  <img src="https://github.com/anjalp/PySide2extn/tree/gh-pages/pages/assets/rpb.png">
 </p>
+
 PySide2/PyQt5 natively does not support a round progress bar. PySide2extn/PyQt5extn package solves this problem and gives users the ability to add the round progress bar in their existing projects or new ones same as they used to work with other native PySide2/PyQt5 widgets. It can also be used with QtDesigner(refer [Getting Started](pages/get_started#using-with-qtdesigner)). The above image represent the potential of this package for customization of the round progress bar widget.
 
 [See Examples](pages/examples/rpbExamples){: .btn .fs-5 .mb-4 .mb-md-0 } [Details](/pages/class/rpbClass){: .btn .fs-5 .mb-4 .mb-md-0 }
